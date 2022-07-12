@@ -1,0 +1,84 @@
+@import '../../styles/break-points.scss';
+
+.Vehicles {
+  display: grid;
+  padding: 1rem 31rem;
+  border: 1px solid red;
+  background-color: #fff;
+
+  .main {
+    display: grid;
+    gap: 2rem;
+    width: 110%;
+    border: 1px solid red;
+    margin-left: 12px;
+    background-color:  rgba(219, 226, 238, 0.719);
+
+    h2 {
+      text-align: center;
+    }
+
+    .valor{
+      display: flex;
+      
+     
+    }
+    
+    label {
+      font-size: 40px;
+      text-indent: 60px;
+      margin-left: 99px;
+      input{
+        font-size: 45px;
+      }
+    }
+    
+
+    input {
+      width: 100%;
+      display: flex;
+      margin-bottom: 8px;
+      border-radius: 30px;
+      height: 90px;
+      width: 85%;
+      border: none;
+      margin-left:43px;
+    }
+
+    button{
+     // position: relative;
+     width: 25%;
+     background-color: rgb(117, 210, 238);
+     height: 69px;
+     border: 0;
+     // margin-top: 20px;
+     
+     
+     margin-left: 599px;
+     border-radius: 30px;
+     font-weight: 500;
+     font-size: 30px;
+     text-transform: uppercase; 
+     margin-bottom: 35px;
+   
+     
+    }
+  
+  }
+
+  @include tablet {
+
+  }
+
+  @include laptop {
+
+  }
+
+  @include desktop {
+
+  }
+
+  @include desktop-large {
+
+  }
+}
